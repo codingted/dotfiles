@@ -22,6 +22,7 @@ filetype plugin indent on    " 必须 加载vim自带和插件相应的语法和
 " vundle 管理插件#################END
 
 " NERDTree config
+autocmd vimenter * NERDTree
  map <F2> :NERDTreeToggle<CR>
  autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") &&b:NERDTreeType == "primary") | q | endif
 " ctrlp
@@ -57,8 +58,7 @@ set t_Co=256
 
 set wildmenu
 
-" 去掉有关vi一致性模式，避免以前版本的一些bug和局限，解决backspace不能使用的问题
-set nocompatible
+" 解决backspace不能使用的问题
 set backspace=indent,eol,start
 set backspace=2
 
