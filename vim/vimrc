@@ -1,11 +1,25 @@
-execute pathogen#infect()
+"配置文件.vimrc更改后自动重新载入使设置生效
+autocmd! bufwritepost .vimrc source ~/.vimrc
 
-set nocompatible              " be iMproved, required
-filetype off                  " required
-let g:vim_markdown_folding_disabled = 1
-" ruby on rails config
-let g:rubycomplete_buffer_loading = 1
-let g:rubycomplete_rails = 1
+" vundle 管理插件###############START
+set nocompatible              " 去除VI一致性,必须
+filetype off                  " 必须
+
+" 设置包括vundle和初始化相关的runtime path
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" 另一种选择, 指定一个vundle安装插件的路径
+"call vundle#begin('~/some/path/here')
+
+" 让vundle管理插件版本,必须
+Plugin 'VundleVim/Vundle.vim'
+
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'scrooloose/nerdtree'
+
+call vundle#end()            " 必须
+filetype plugin indent on    " 必须 加载vim自带和插件相应的语法和文件类型相关脚本
+" vundle 管理插件#################END
 
 " NERDTree config
  map <F2> :NERDTreeToggle<CR>
@@ -78,17 +92,17 @@ set helplang=cn
 set showmatch
 
 " 文件缩进及tab个数
-au FileType html,python,vim,javascript setl shiftwidth=4
-au FileType html,python,vim,javascript setl tabstop=4
+au FileType html,python,vim,javascript,shell setl shiftwidth=2
+au FileType html,python,vim,javascript,shell setl tabstop=2
 au FileType java,php setl shiftwidth=4
 au FileType java,php setl tabstop=4
 " 高亮搜索的字符串
 set hlsearch
 
 " 检测文件的类型
-filetype on
-filetype plugin on
-filetype indent on
+"filetype on
+"filetype plugin on
+"filetype indent on
 
 " C风格缩进
 set cindent
@@ -112,6 +126,13 @@ let &t_EI = "\<Esc>]50;CursorShape=0\x7" " Block in normal mode
 "endif
 " 共享剪贴板
 set clipboard+=unnamed
+"设置快捷键前最，即<Leader>
+let mapleader=":"
+"设置快捷键将选中文本块复制到系统剪贴板
+map <Leader>y "+y
+"设置快捷键将系统剪贴板内容粘帖到vim
+map <Leader>p "+p
+
 " 文件被改动时自动载入
 set autoread
 " 顶部底部保持3行距离
