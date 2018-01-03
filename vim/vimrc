@@ -22,9 +22,9 @@ filetype plugin indent on    " 必须 加载vim自带和插件相应的语法和
 " vundle 管理插件#################END
 
 " NERDTree config
-autocmd vimenter * NERDTree
- map <F2> :NERDTreeToggle<CR>
- autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") &&b:NERDTreeType == "primary") | q | endif
+"autocmd vimenter * NERDTree
+map <F2> :NERDTreeToggle<CR>
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") &&b:NERDTreeType == "primary") | q | endif
 " ctrlp
 :helptags ~/.vim/bundle/ctrlp.vim/doc
 let g:ctrlp_map = ',,'
@@ -132,7 +132,8 @@ let mapleader=":"
 map <Leader>y "+y
 "设置快捷键将系统剪贴板内容粘帖到vim
 map <Leader>p "+p
-
+" json数据格式化
+noremap <Leader>j :%!python -m json.tool
 " 文件被改动时自动载入
 set autoread
 " 顶部底部保持3行距离
