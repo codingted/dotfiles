@@ -15,8 +15,7 @@ $ ln -s ~/dotfile/tmux/tmux.conf ~/.tmux.conf
 
 **Install Vundle**
 
-`git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
-
+`git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim` 
 Then `vim` switch to comman model `:PluginInstall`
 
 ### Config tmux
