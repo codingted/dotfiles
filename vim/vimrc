@@ -22,7 +22,7 @@ Plugin 'edkolev/tmuxline.vim'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'pangloss/vim-javascript'
 Plugin 'othree/javascript-libraries-syntax.vim'
-
+Plugin 'jistr/vim-nerdtree-tabs'
 call vundle#end()            " 必须
 filetype plugin indent on    " 必须 加载vim自带和插件相应的语法和文件类型相关脚本
 " vundle 管理插件#################END
@@ -54,6 +54,7 @@ let g:tmuxline_preset = {
 " NERDTree config
 "autocmd vimenter * NERDTree
 map <F2> :NERDTreeToggle<CR>
+map <Leader>n :NERDTreeTabToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") &&b:NERDTreeType == "primary") | q | endif
 " ctrlp
 :helptags ~/.vim/bundle/ctrlp.vim/doc
