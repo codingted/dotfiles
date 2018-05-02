@@ -19,9 +19,9 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-fugitive'
 Plugin 'vim-airline/vim-airline'
 Plugin 'edkolev/tmuxline.vim'
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'pangloss/vim-javascript'
-Plugin 'othree/javascript-libraries-syntax.vim'
+" Plugin 'Valloric/YouCompleteMe'
+" Plugin 'pangloss/vim-javascript'
+" Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'jistr/vim-nerdtree-tabs'
 call vundle#end()            " 必须
 filetype plugin indent on    " 必须 加载vim自带和插件相应的语法和文件类型相关脚本
@@ -34,7 +34,8 @@ let g:ycm_python_binary_path = '/usr/bin/python3'
 au BufRead,BufNewFile *.vue set filetype=html
 
 " tmuxline
-let g:tmuxline_theme = 'zenburn'
+" let g:tmuxline_theme = 'zenburn'
+let g:tmuxline_theme = 'airline_visual'
 let g:tmuxline_powerline_separators = 0
 " separator
 let g:tmuxline_separators = {
