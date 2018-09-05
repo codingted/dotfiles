@@ -1,0 +1,22 @@
+session_name: zl-pane-split
+windows:
+    - window_name: tools
+      layout: tiled
+      shell_command_before:
+          - cd ~/tools               # run as a first command in all panes
+      panes:
+          - shell_command:           # pane no. 1
+              - sslocal -c ~/script/zl_config.json  # sslocal proxy
+          - echo second pane
+    - window_name: ssh 
+      layout: tiled
+      shell_command_before:
+          - cd ~/shell/ssh           
+      panes:
+      - shell_command:           # pane no. 1
+          - ./phoenix-log.sh         # log panel
+          - echo second pane         # pane no. 2
+    - window_name: work
+      layout: tiled
+      shell_command_before:
+          - cd ~/work
