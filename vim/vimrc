@@ -171,6 +171,8 @@ map <Leader>y "+y
 map <Leader>p "+p
 " json数据格式化
 noremap <Leader>j :%!python -m json.tool
+" 插入markdown 代码块
+noremap <Leader>mc i```sh<Esc>o<Esc>i```<Esc>
 " 文件被改动时自动载入
 set autoread
 " 顶部底部保持3行距离
