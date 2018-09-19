@@ -60,7 +60,7 @@ map <Leader>n :NERDTreeTabToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") &&b:NERDTreeType == "primary") | q | endif
 " ctrlp
 :helptags ~/.vim/bundle/ctrlp.vim/doc
-let g:ctrlp_map = ',,'
+" let g:ctrlp_map = ',,'
 let g:ctrlp_cmd = 'CtrlP'
 
 " Allow saving of files as sudo when I forgot to start vim using sudo.
@@ -93,7 +93,10 @@ colorscheme slate
 " 指定配色方案是256色
 set t_Co=256
 
-set wildmenu
+" 设置自动补全方案
+" set wildmenu
+" set wildmode=full
+set wildmode=longest,list
 
 " 解决backspace不能使用的问题
 set backspace=indent,eol,start
@@ -164,7 +167,7 @@ let &t_EI = "\<Esc>]50;CursorShape=0\x7" " Block in normal mode
 " 共享剪贴板
 set clipboard+=unnamed
 "设置快捷键前最，即<Leader>
-let mapleader=";"
+" let mapleader=";"
 "设置快捷键将选中文本块复制到系统剪贴板
 map <Leader>y "+y
 "设置快捷键将系统剪贴板内容粘帖到vim
@@ -173,6 +176,10 @@ map <Leader>p "+p
 noremap <Leader>j :%!python -m json.tool
 " 插入markdown 代码块
 noremap <Leader>mc i```sh<Esc>o<Esc>i```<Esc>
+" 映射历史命令
+cnoremap <C-p> <Up>
+cnoremap <C-n> <Down>
+
 " 文件被改动时自动载入
 set autoread
 " 顶部底部保持3行距离
