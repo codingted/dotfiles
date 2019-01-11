@@ -118,7 +118,10 @@ set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
 
-
+workspace 1 output eDP-1
+workspace 2 output HDMI-1
+workspace 3 output HDMI-1
+workspace 4 output HDMI-1
 # switch to workspace
 bindsym Mod4+1 workspace $ws1
 bindsym Mod4+2 workspace $ws2
@@ -149,6 +152,10 @@ bindsym Mod1+Shift+c reload
 bindsym Mod1+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym Mod1+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+
+# i3-gaps
+gaps inner 15
+gaps outer 15
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -183,7 +190,7 @@ bindsym Mod4+l exec i3lock -i ~/Pictures/wallpaper/dark_hand_smoke.png
 bindsym $mod+Shift+bracketleft move workspace to output left
 bindsym $mod+Shift+bracketright move workspace to output right
 # mul screen
-# exec xrandr --output HDMI-1 --left-of eDP-1 --auto
+exec xrandr --output HDMI-1 --left-of eDP-1 --auto
 # shutter
 exec shutter --min_at_startup
 # 全屏截图
