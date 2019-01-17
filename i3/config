@@ -73,7 +73,7 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
-bindsym $mod+h split z
+bindsym $mod+b split h
 
 # split in vertical orientation
 bindsym $mod+v split v
@@ -139,12 +139,12 @@ bindsym $mod+Shift+1 move container to workspace $ws1
 bindsym $mod+Shift+2 move container to workspace $ws2
 bindsym $mod+Shift+3 move container to workspace $ws3
 bindsym $mod+Shift+4 move container to workspace $ws4
-bindsym $mod+Shift+5 move container to workspace $ws5
-bindsym $mod+Shift+6 move container to workspace $ws6
-bindsym $mod+Shift+7 move container to workspace $ws7
-bindsym $mod+Shift+8 move container to workspace $ws8
-bindsym $mod+Shift+9 move container to workspace $ws9
-bindsym $mod+Shift+0 move container to workspace $ws10
+# bindsym $mod+Shift+5 move container to workspace $ws5
+# bindsym $mod+Shift+6 move container to workspace $ws6
+# bindsym $mod+Shift+7 move container to workspace $ws7
+# bindsym $mod+Shift+8 move container to workspace $ws8
+# bindsym $mod+Shift+9 move container to workspace $ws9
+# bindsym $mod+Shift+0 move container to workspace $ws10
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -187,48 +187,30 @@ bindsym $mod+r mode "resize"
 # lock screen
 bindsym Mod4+l exec i3lock -t -i ~/.icon/arch.png
 # wallpaper
-exec_always --no-startup-id feh --randomize --bg-fill ~/Pictures/wallpaper/Landscapes/*
+exec_always --no-startup-id feh --randomize -d --bg-fill ~/Pictures/wallpaper/Landscapes/*
 # move workspace to left and right monitors
 bindsym $mod+Shift+bracketleft move workspace to output left
 bindsym $mod+Shift+bracketright move workspace to output right
 # mul screen
 exec xrandr --output HDMI-1 --left-of eDP-1 --auto
 # shutter
-exec shutter --min_at_startup
+# exec shutter --min_at_startup
 # 全屏截图
-bindsym --release Print exec shutter -f -o '~/Pictures/Screenshots/%Y-%m-%d_%H:%M:%S_$wx$h.png'
-
+#bindsym --release Print exec shutter -f -o '~/Pictures/Screenshots/%Y-%m-%d_%H:%M:%S_$wx$h.png'
 # 截取当前窗口
 # bindsym --release Shift+Print exec shutter --window
 # 鼠标选择区域
 # bindsym --release Shift+Print exec shutter --select 
-bindsym --release Shift+Print exec shutter -s -o '~/Pictures/Screenshots/%Y-%m-%d_%H:%M:%S_$wx$h.png'
+#bindsym --release Shift+Print exec shutter -s -o '~/Pictures/Screenshots/%Y-%m-%d_%H:%M:%S_$wx$h.png'
+bindsym --release Shift+Print exec scrot -s -e 'mv $f ~/Pictures/Screenshots/%Y-%m-%d_%H:%M:%S_$wx$h.png'
 
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
-#        status_command i3status
-        status_command          i3blocks
-        bindsym button4         nop
-        bindsym button5         nop
-        position                bottom
-        tray_output             primary
-        separator_symbol        "·"
-        workspace_buttons       yes
-        strip_workspace_numbers yes
-
-        colors {
-            background  #212121
-                statusline  #dddddd
-                separator   #666666
-                # class             border  backgr. text
-                focused_workspace   #2b83a6 #2b83a6 #ffffff
-                active_workspace    #212121 #212121 #ffffff
-                inactive_workspace  #212121 #212121 #86888c
-                urgent_workspace    #d64e4e #d64e4e #ffffff
-                binding_mode        #229c56 #229c56 #ffffff
-        }
+        status_command i3status
+        verbose yes
+#        position                top
 }
 
 #######################################################################
@@ -240,4 +222,4 @@ bar {
 #
 # Please remove the following exec line:
 #######################################################################
-exec i3-config-wizard
+# exec i3-config-wizard
