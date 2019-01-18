@@ -35,8 +35,11 @@ set $right l
 # use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
-# start a terminal
+# start a terminal with transparency
 bindsym $mod+Shift+Return exec urxvt
+
+# start a terminal without transparency
+bindsym $mod+Ctrl+Shift+Return exec urxvt +tr
 
 # kill focused window
 bindsym $mod+Shift+q kill
