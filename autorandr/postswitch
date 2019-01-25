@@ -1,0 +1,5 @@
+#!/bin/bash
+
+xrandr --output HDMI-1 --left-of eDP-1 --auto
+i3-msg '[workspace="^(2|3|4)"] move workspace to output HDMI-1;'
+i3-msg '[workspace="^(1)"] move workspace to output eDP-1;'

@@ -121,10 +121,10 @@ set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
 
-workspace 1 output eDP-1
-workspace 2 output HDMI-1
-workspace 3 output HDMI-1
-workspace 4 output HDMI-1
+#workspace 1 output eDP-1
+#workspace 2 output HDMI-1
+#workspace 3 output HDMI-1
+#workspace 4 output HDMI-1
 # switch to workspace
 bindsym Mod4+1 workspace $ws1
 bindsym Mod4+2 workspace $ws2
@@ -195,7 +195,7 @@ exec_always --no-startup-id feh --randomize -d --bg-fill ~/Pictures/wallpaper/La
 bindsym $mod+Shift+bracketleft move workspace to output left
 bindsym $mod+Shift+bracketright move workspace to output right
 # mul screen
-exec xrandr --output HDMI-1 --left-of eDP-1 --auto
+# exec xrandr --output HDMI-1 --left-of eDP-1 --auto
 # shutter
 # exec shutter --min_at_startup
 # 全屏截图
