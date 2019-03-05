@@ -24,15 +24,23 @@ Plugin 'tpope/vim-surround'
 " Plugin 'pangloss/vim-javascript'
 " Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'jistr/vim-nerdtree-tabs'
+" python ide plugin
+Plugin 'tmhedberg/SimpylFold'
+Plugin 'vim-scripts/indentpython.vim'
+Plugin 'vim-syntastic/syntastic'
 call vundle#end()            " 必须
 filetype plugin indent on    " 必须 加载vim自带和插件相应的语法和文件类型相关脚本
 " vundle 管理插件#################END
 " YCM 配置python语法
 let g:ycm_python_binary_path = '/usr/bin/python3'
+" python ide config ######START
+" Enable folding
+set foldmethod=indent
+set foldlevel=99
 
-" js lib
-"au BufRead,BufNewFile *.vue set filetype=vue
-au BufRead,BufNewFile *.vue set filetype=html
+nnoremap <space> za
+let g:SimpylFold_docstring_preview=1
+" python ide config ######END
 
 " tmuxline
 " let g:tmuxline_theme = 'zenburn'
@@ -80,8 +88,9 @@ set showcmd
 " 启动显示状态行1，总是显示状态行2
 set laststatus=2
 " 语法高亮显示
-syntax on
 let java_highlight_functions = 1
+let python_highlight_all = 1
+syntax on
 
 set fileencodings=utf-8,gb2312,gbk,cp936,latin-1
 set fileencoding=utf-8
@@ -132,10 +141,19 @@ set helplang=cn
 set showmatch
 
 " 文件缩进及tab个数
-au FileType html,python,vim,javascript,shell setl shiftwidth=2
-au FileType html,python,vim,javascript,shell setl tabstop=2
-au FileType java,php setl shiftwidth=4
-au FileType java,php setl tabstop=4
+au FileType python
+    \ set tabstop=4
+    \  softtabstop=4
+    \  shiftwidth=4
+    \  textwidth=79
+    \  expandtab
+    \  autoindent
+    \  fileformat=unix
+" au FileType html,python,vim,javascript,shell setl shiftwidth=2
+" au FileType html,python,vim,javascript,shell setl tabstop=2
+" au FileType java,php setl shiftwidth=4
+" au FileType java,php setl tabstop=4
+
 " 高亮搜索的字符串
 set hlsearch
 

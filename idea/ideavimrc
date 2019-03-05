@@ -1,6 +1,6 @@
 set nu
 set relativenumber
-
+set surround
 
 set fileencodings=utf-8,gb2312,gbk,cp936,latin-1
 set fileencoding=utf-8
