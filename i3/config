@@ -124,10 +124,10 @@ set $ws10 "10"
 # back to last window
 bindsym $mod+Tab workspace back_and_forth
 # to multi monitor
-workspace 1 output eDP-1
-workspace 2 output HDMI-1
-workspace 3 output HDMI-1
-workspace 4 output HDMI-1
+workspace 1 output eDP-1-1
+workspace 2 output HDMI-1-1
+workspace 3 output HDMI-1-1
+workspace 4 output HDMI-1-1
 # switch to workspace
 bindsym Mod4+1 workspace $ws1
 bindsym Mod4+2 workspace $ws2
@@ -160,8 +160,8 @@ bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
 # i3-gaps
-gaps inner 15
-gaps outer 15
+#gaps inner 15
+#gaps outer 15
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -218,16 +218,19 @@ bindsym $mod+Shift+bracketright move workspace to output right
 # mul screen
 # exec xrandr --output HDMI-1 --left-of eDP-1 --auto
 # shutter
-# exec shutter --min_at_startup
+bindsym Mod4+Print exec shutter 
 # 全屏截图
 #bindsym --release Print exec shutter -f -o '~/Pictures/Screenshots/%Y-%m-%d_%H:%M:%S_$wx$h.png'
-bindsym --release Print exec "scrot --focused '%Y-%m-%d_%H:%M:%S_$wx$h.png'  -e 'mv $f ~/Pictures/Screenshots/ && xclip -t image/png ~/Pictures/Screenshots/$f -sel clip'"
+#bindsym --release Print exec "scrot --focused '%Y-%m-%d_%H:%M:%S_$wx$h.png'  -e 'mv $f ~/Pictures/Screenshots/ && xclip -t image/png ~/Pictures/Screenshots/$f -sel clip'"
 # 截取当前窗口
 # bindsym --release Shift+Print exec shutter --window
 # 鼠标选择区域
 # bindsym --release Shift+Print exec shutter --select 
-#bindsym --release Shift+Print exec shutter -s -o '~/Pictures/Screenshots/%Y-%m-%d_%H:%M:%S_$wx$h.png'
-#bindsym --release Shift+Print exec scrot -s -e 'mv $f ~/Pictures/Screenshots/%Y-%m-%d_%H:%M:%S_$wx$h.png'
+# 截取并退出
+#bindsym --release Shift+Print exec "shutter -e -s -o '~/Pictures/Screenshots/%Y-%m-%d_%H:%M:%S_$wx$h.png && xclip -t image/png ~/Pictures/Screenshots/$f -sel clip'
+#bindsym --release Shift+Print exec "scrot -s '%Y-%m-%d_%H:%M:%S_$wx$h.png'  -e 'mv $f ~/Pictures/Screenshots/ && xclip -t image/png ~/Pictures/Screenshots/$f -sel clip'"
+# 截取并编辑
+#bindsym --release Ctrl+Shift+Print exec shutter -s -o '~/Pictures/Screenshots/%Y-%m-%d_%H:%M:%S_$wx$h.png'
 bindsym --release Shift+Print exec "scrot -s '%Y-%m-%d_%H:%M:%S_$wx$h.png'  -e 'mv $f ~/Pictures/Screenshots/ && xclip -t image/png ~/Pictures/Screenshots/$f -sel clip'"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
