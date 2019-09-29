@@ -3,12 +3,12 @@
 !!$HOME/.Xdefaults
 URxvt.preeditType:Root
 !!调整此处设置输入法
-URxvt.inputMethod:fcitx
+URxvt.inputMethod:ibus
 !!颜色设置
 URxvt.depth:32
 !!透明度
 URxvt.transparent:   true
-URxvt.shading:       30
+URxvt.shading:       35
 !!中括号内数表示透明度
 !URxvt.inheritPixmap:true
 URxvt.background:#000000
@@ -36,7 +36,7 @@ URxvt.keysym.C-S-Down: font-size:decglobal
 URxvt.keysym.C-equal:  font-size:reset
 !URxvt.keysym.C-slash:  font-size:show
 !!URL操作
-URxvt.urlLauncher:chromium
+URxvt.urlLauncher:firefox
 URxvt.matcher.button:1
 !!滚动条设置
 URxvt.scrollBar:False
@@ -54,7 +54,7 @@ URxvt.saveLines:3000
 URxvt.borderLess:False
 !!字体设置
 Xft.dpi:96
-URxvt.font:xft:IBM Plex MOno SemiBold:pixelsize=18
+URxvt.font:xft:IBM Plex MOno SemiBold:pixelsize=15
 !mode
 URxvt.iso14755: false
 URxvt.iso14755_52: false

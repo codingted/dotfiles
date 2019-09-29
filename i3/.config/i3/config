@@ -36,10 +36,10 @@ set $right l
 floating_modifier $mod
 
 # start a terminal with transparency
-bindsym $mod+Shift+Return exec urxvt
+bindsym $mod+Shift+Return exec i3-sensible-terminal
 
 # start a terminal without transparency
-bindsym $mod+Ctrl+Shift+Return exec urxvt +tr
+#bindsym $mod+Ctrl+Shift+Return exec urxvt +tr
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -124,17 +124,17 @@ set $ws10 "10"
 # back to last window
 bindsym $mod+Tab workspace back_and_forth
 # to multi monitor
-workspace 1 output eDP-1-1
-workspace 2 output HDMI-1-1
-workspace 3 output HDMI-1-1
-workspace 4 output HDMI-1-1
+workspace $ws1 output eDP-1
+workspace $ws2 output HDMI-2
+workspace $ws3 output HDMI-2
+workspace $ws4 output HDMI-2
 # switch to workspace
 bindsym Mod4+1 workspace $ws1
 bindsym Mod4+2 workspace $ws2
 bindsym Mod4+3 workspace $ws3
 bindsym Mod4+4 workspace $ws4
 bindsym Mod4+5 workspace $ws5
-# bindsym $mod+6 workspace $ws6
+bindsym Mod4+6 workspace $ws6
 # bindsym $mod+7 workspace $ws7
 # bindsym $mod+8 workspace $ws8
 # bindsym $mod+9 workspace $ws9
@@ -192,12 +192,15 @@ bindsym $mod+r mode "resize"
 
 # Pulse Audio controls
 #increase sound volume
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% 
+#bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% 
 #decrease sound volume
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% 
+#bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% 
 # mute sound
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle 
-
+#bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle 
+# amixer controls
+bindsym XF86AudioMute exec amixer sset 'Master' toggle
+bindsym XF86AudioLowerVolume exec amixer sset 'Master' 5%-
+bindsym XF86AudioRaiseVolume exec amixer sset 'Master' 5%+
 # Sreen brightness controls
 # increase screen brightness
 bindsym XF86MonBrightnessUp exec xbacklight -inc 20 
@@ -205,13 +208,13 @@ bindsym XF86MonBrightnessUp exec xbacklight -inc 20
 bindsym XF86MonBrightnessDown exec xbacklight -dec 20 
 
 # lock screen
-bindsym Mod4+l exec i3lock -t -i ~/.icon/arch.png
+bindsym Mod4+l exec i3lock -t -i ~/.icon/ubuntu.png
 # lock screen and suspend
-bindsym Mod4+Ctrl+l exec "i3lock -t -i ~/.icon/arch.png && systemctl suspend"
+bindsym Mod4+Ctrl+l exec "i3lock -t -i ~/.icon/ubuntu.png && systemctl suspend"
 # lock screen and hibernate 
-bindsym Mod4+Ctrl+h exec "i3lock -t -i ~/.icon/arch.png && systemctl hibernate"
+bindsym Mod4+Ctrl+h exec "i3lock -t -i ~/.icon/ubuntu.png && systemctl hibernate"
 # wallpaper
-exec_always --no-startup-id feh --randomize -d --bg-fill ~/Pictures/wallpaper/Landscapes/*
+exec_always --no-startup-id feh --randomize -d --bg-fill ~/Pictures/wallpaper/*
 # move workspace to left and right monitors
 bindsym $mod+Shift+bracketleft move workspace to output left
 bindsym $mod+Shift+bracketright move workspace to output right
@@ -225,12 +228,13 @@ bindsym Mod4+Print exec shutter
 # 截取当前窗口
 # bindsym --release Shift+Print exec shutter --window
 # 鼠标选择区域
-# bindsym --release Shift+Print exec shutter --select 
+#bindsym --release Shift+Print exec shutter --select 
 # 截取并退出
-#bindsym --release Shift+Print exec "shutter -e -s -o '~/Pictures/Screenshots/%Y-%m-%d_%H:%M:%S_$wx$h.png && xclip -t image/png ~/Pictures/Screenshots/$f -sel clip'
+#bindsym --release Shift+Print exec "shutter -e -s -o '~/Pictures/Screenshots/%Y-%m-%d_%H:%M:%S_$wx$h.png && xclip -t image/png ~/Pictures/Screenshots/$f'"
+#bindsym --release Shift+Print exec "shutter -s -o '~/Pictures/Screenshots/%Y-%m-%d_%H:%M:%S_$wx$h.png'"
 #bindsym --release Shift+Print exec "scrot -s '%Y-%m-%d_%H:%M:%S_$wx$h.png'  -e 'mv $f ~/Pictures/Screenshots/ && xclip -t image/png ~/Pictures/Screenshots/$f -sel clip'"
 # 截取并编辑
-#bindsym --release Ctrl+Shift+Print exec shutter -s -o '~/Pictures/Screenshots/%Y-%m-%d_%H:%M:%S_$wx$h.png'
+bindsym --release Ctrl+Shift+Print exec shutter -s -o '~/Pictures/Screenshots/%Y-%m-%d_%H:%M:%S_$wx$h.png'
 bindsym --release Shift+Print exec "scrot -s '%Y-%m-%d_%H:%M:%S_$wx$h.png'  -e 'mv $f ~/Pictures/Screenshots/ && xclip -t image/png ~/Pictures/Screenshots/$f -sel clip'"
 
 # Start i3bar to display a workspace bar (plus the system information i3status

@@ -71,7 +71,7 @@ map <Leader>n :NERDTreeTabToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") &&b:NERDTreeType == "primary") | q | endif
 " ctrlp
 :helptags ~/.vim/bundle/ctrlp.vim/doc
-let g:ctrlp_map = ',,'
+" let g:ctrlp_map = ',,'
 " let g:ctrlp_cmd = 'CtrlP'
 
 " Allow saving of files as sudo when I forgot to start vim using sudo.
@@ -182,8 +182,8 @@ set cursorline
 "设置光标样式为竖线vertical bar
 " Change cursor shape between insert and normal mode in iTerm2.app
 "if $TERM_PROGRAM =~ "iTerm"
-let &t_SI = "\<Esc>]50;CursorShape=1\x7" " Vertical bar in insert mode
-let &t_EI = "\<Esc>]50;CursorShape=0\x7" " Block in normal mode
+"let &t_SI = "\<Esc>]50;CursorShape=1\x7" " Vertical bar in insert mode
+"let &t_EI = "\<Esc>]50;CursorShape=0\x7" " Block in normal mode
 "endif
 " 共享剪贴板
 set clipboard+=unnamed
@@ -203,8 +203,8 @@ noremap <Leader>j :%!python -m json.tool
 " 插入markdown 代码块
 noremap <Leader>mc i```sh<Esc>o<Esc>i```<Esc>
 " 映射历史命令
-cnoremap <C-p> <Up>
-cnoremap <C-n> <Down>
+"cnoremap <C-p> <Up>
+"cnoremap <C-n> <Down>
 
 " 文件被改动时自动载入
 set autoread
