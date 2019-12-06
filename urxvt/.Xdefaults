@@ -25,19 +25,22 @@ URxvt.color14:Cyan2
 URxvt.color15:Gray95
 !!扩展
 URxvt.perl-lib:~/.urxvt/ext/
-URxvt.perl-ext-common:default,matcher,font-size,keyboard-select
-URxvt.keysym.Mod4-Escape: perl:keyboard-select:activate
-URxvt.keysym.Mod4-s: perl:keyboard-select:search
+URxvt.perl-ext-common:  default,matcher,font-size,url-select,keyboard-select
+URxvt.colorUL:      #4682B4
+!! keyboard-select
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+URxvt.keysym.M-s: perl:keyboard-select:search
 !!设置字体大小
-URxvt.keysym.C-Up:     font-size:increase
-URxvt.keysym.C-Down:   font-size:decrease
-URxvt.keysym.C-S-Up:   font-size:incglobal
-URxvt.keysym.C-S-Down: font-size:decglobal
-URxvt.keysym.C-equal:  font-size:reset
+URxvt.keysym.C-j:     font-size:increase
+URxvt.keysym.C-k:     font-size:decrease
+!URxvt.keysym.C-S-Up:   font-size:incglobal
+!URxvt.keysym.C-S-Down: font-size:decglobal
+!URxvt.keysym.C-equal:  font-size:reset
 !URxvt.keysym.C-slash:  font-size:show
-!!URL操作
-URxvt.urlLauncher:firefox
-URxvt.matcher.button:1
+!! matcher
+URxvt.keysym.M-u:       perl:url-select:select_next
+URxvt.url-launcher:      /usr/bin/xdg-open
+URxvt.matcher.button:   1
 !!滚动条设置
 URxvt.scrollBar:False
 URxvt.scrollBar_floating:False
@@ -54,7 +57,7 @@ URxvt.saveLines:3000
 URxvt.borderLess:False
 !!字体设置
 Xft.dpi:96
-URxvt.font:xft:IBM Plex MOno SemiBold:pixelsize=15
+URxvt.font:xft:IBM Plex Mono SemiBold:pixelsize=15
 !mode
 URxvt.iso14755: false
 URxvt.iso14755_52: false
