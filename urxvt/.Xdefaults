@@ -8,7 +8,7 @@ URxvt.inputMethod:ibus
 URxvt.depth:32
 !!透明度
 URxvt.transparent:   true
-URxvt.shading:       35
+URxvt.shading:       20
 !!中括号内数表示透明度
 !URxvt.inheritPixmap:true
 URxvt.background:#000000
@@ -30,6 +30,7 @@ URxvt.colorUL:      #4682B4
 !! keyboard-select
 URxvt.keysym.M-Escape: perl:keyboard-select:activate
 URxvt.keysym.M-s: perl:keyboard-select:search
+URxvt.keyboard-select.clipboard: true
 !!设置字体大小
 URxvt.keysym.C-j:     font-size:increase
 URxvt.keysym.C-k:     font-size:decrease
@@ -57,7 +58,7 @@ URxvt.saveLines:3000
 URxvt.borderLess:False
 !!字体设置
 Xft.dpi:96
-URxvt.font:xft:IBM Plex Mono SemiBold:pixelsize=15
+URxvt.font:xft:IBM Plex Mono SemiBold:pixelsize=18
 !mode
 URxvt.iso14755: false
 URxvt.iso14755_52: false

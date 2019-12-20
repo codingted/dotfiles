@@ -102,7 +102,7 @@ cnoremap <C-n> <Down>
 " 文件被改动时自动载入
 set autoread
 " 顶部底部保持3行距离
-set scrolloff=3
+" set scrolloff=3
 
 " 光标形状
 if has("autocmd")
