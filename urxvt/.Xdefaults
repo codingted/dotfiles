@@ -9,6 +9,7 @@ URxvt.depth:32
 !!透明度
 URxvt.transparent:   true
 URxvt.shading:       20
+URxvt.fading:        40
 !!中括号内数表示透明度
 !URxvt.inheritPixmap:true
 URxvt.background:#000000

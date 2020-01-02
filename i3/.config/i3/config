@@ -128,10 +128,11 @@ set $ws10 "10"
 # back to last window
 bindsym $mod+Tab workspace back_and_forth
 # to multi monitor
-workspace $ws1 output eDP-1
-workspace $ws2 output HDMI-2
-workspace $ws3 output HDMI-2
-workspace $ws4 output HDMI-2
+#workspace $ws1 output eDP-1
+#workspace $ws2 output HDMI-2
+#workspace $ws2 output HDMI-2
+#workspace $ws3 output HDMI-2
+#workspace $ws4 output HDMI-2
 # switch to workspace
 bindsym Mod4+1 workspace $ws1
 bindsym Mod4+2 workspace $ws2
@@ -167,10 +168,9 @@ bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
 # i3-gaps
-#gaps inner 15
-#gaps outer 15
+#smart_gaps on
+for_window [class="urxvt"] border pixel 5
 
-#
 focus_follows_mouse no
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -217,7 +217,7 @@ bindsym XF86MonBrightnessUp exec xbacklight -inc 20
 bindsym XF86MonBrightnessDown exec xbacklight -dec 20 
 
 # lock screen
-bindsym Mod4+l exec i3lock -t -i ~/.icon/ubuntu.png
+bindsym Mod4+l exec i3lock -t -i ~/.icon/morning_coffee-3440x1440.png
 # lock screen and suspend
 bindsym Mod4+Ctrl+l exec "i3lock -t -i ~/.icon/ubuntu.png && systemctl suspend"
 # lock screen and hibernate 
