@@ -59,7 +59,8 @@ URxvt.saveLines:3000
 URxvt.borderLess:False
 !!字体设置
 Xft.dpi:96
-URxvt.font:xft:IBM Plex Mono SemiBold:pixelsize=18
+URxvt.font:xft:IBM Plex Mono SemiBold:pixelsize=18,xft:WenQuanYi Micro Hei Mono:regular:size=13:minspace=true_
+!!URxvt.font:xft:IBM Plex Mono SemiBold:pixelsize=18,xft:Noto Sans Mono CJK HK:regular:size=13:minspace=true_
 !mode
 URxvt.iso14755: false
 URxvt.iso14755_52: false

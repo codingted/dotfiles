@@ -23,6 +23,7 @@ Plugin 'tpope/vim-surround'
 " Plugin 'Valloric/YouCompleteMe'
 " Plugin 'pangloss/vim-javascript'
 " Plugin 'othree/javascript-libraries-syntax.vim'
+Plugin 'posva/vim-vue'
 Plugin 'jistr/vim-nerdtree-tabs'
 " python ide plugin
 Plugin 'tmhedberg/SimpylFold'
@@ -156,6 +157,9 @@ au FileType python
 " au FileType html,python,vim,javascript,shell setl tabstop=2
 " au FileType java,php setl shiftwidth=4
 " au FileType java,php setl tabstop=4
+" vim-vue
+autocmd FileType vue syntax sync fromstart
+autocmd BufRead,BufNewFile *.vue setlocal filetype=vue.html.javascript.css
 
 " 高亮搜索的字符串
 set hlsearch
