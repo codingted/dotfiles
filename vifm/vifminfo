@@ -1,0 +1,947 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Marks:
+'D
+	/home/zl/Downloads
+	..
+1575591957
+'H
+	/home/zl/
+	..
+1575591957
+'W
+	/home/zl/Work
+	..
+1575591957
+'b
+	/home/zl/bin/
+	..
+1575591957
+'h
+	/home/zl/
+	..
+1575591957
+
+# Bookmarks:
+
+# TUI:
+al
+q0
+v2
+ov
+m-1
+l12
+r12
+
+# Left window history (oldest to newest):
+d/home/zl/.local/share/vifm/fuse/001_code-promotions.zip/src/main/resources
+	mapper
+1
+d/home/zl/.local/share/vifm/fuse/001_code-promotions.zip/src/main
+	resources
+2
+d/home/zl/.local/share/vifm/fuse/001_code-promotions.zip/src
+	main
+1
+d/home/zl/.local/share/vifm/fuse/001_code-promotions.zip
+	src
+1
+d/home/zl/Downloads
+	code-promotions.zip
+8
+d/home/zl
+	Downloads
+8
+d/home
+	zl
+4
+d/home/zl
+	rsync
+13
+d/home/zl/Work
+	Doc
+4
+d/home/zl/Work/Doc
+	init_promotions_flow_case.sql
+8
+d/home/zl/Work
+	Doc
+4
+d/home/zl
+	src
+16
+d/home
+	zl
+4
+d/home/zl
+	Videos
+18
+d/home/zl/Videos
+	youtube
+1
+d/home/zl/Videos/youtube
+	mit
+2
+d/home/zl/Videos/youtube/mit
+	..
+0
+d/home/zl/Videos/youtube
+	album
+1
+d/home/zl/Videos/youtube/album
+	Norah Jones Greatest Hits - Norah Jones Full Album 2018 [360p].mp4
+1
+d/home/zl/Videos/youtube
+	album
+1
+d/home/zl/Videos
+	youtube
+1
+d/home/zl
+	Videos
+18
+d/home
+	zl
+4
+d/home/zl
+	Videos
+18
+d/home
+	zl
+4
+d/home/zl
+	Videos
+18
+d/home/zl/Work
+	project
+7
+d/home/zl/Work/project
+	xiron
+5
+d/home/zl/Work/project/xiron
+	promotions
+10
+d/home/zl/Work/project/xiron/promotions
+	promotions-dao
+3
+d/home/zl/Work/project/xiron/promotions/promotions-dao
+	src
+1
+d/home/zl/Work/project/xiron/promotions/promotions-dao/src
+	main
+1
+d/home/zl/Work/project/xiron/promotions/promotions-dao/src/main
+	resources
+2
+d/home/zl/Work/project/xiron/promotions/promotions-dao/src/main/resources
+	mybatis
+1
+d/home/zl/Work/project/xiron/promotions/promotions-dao/src/main/resources/mybatis
+	mapper
+1
+d/home/zl/Work/project/xiron/promotions/promotions-dao/src/main/resources/mybatis/mapper
+	..
+0
+d/home/zl/Work/project/xiron/promotions/promotions-dao/src/main/resources/mybatis
+	mapper
+1
+d/home/zl/Work/project/xiron/promotions/promotions-dao/src/main/resources
+	mybatis
+1
+d/home/zl/Work/project/xiron/promotions/promotions-dao/src/main
+	java
+1
+d/home/zl/Work/project/xiron/promotions/promotions-dao/src/main/java
+	com
+1
+d/home/zl/Work/project/xiron/promotions/promotions-dao/src/main/java/com
+	xiron
+1
+d/home/zl/Work/project/xiron/promotions/promotions-dao/src/main/java/com/xiron
+	promotions
+1
+d/home/zl/Work/project/xiron/promotions/promotions-dao/src/main/java/com/xiron/promotions
+	po
+2
+d/home/zl/Work/project/xiron/promotions/promotions-dao/src/main/java/com/xiron/promotions/po
+	..
+0
+d/home/zl/Work/project/xiron/promotions/promotions-dao/src/main/java/com/xiron/promotions
+	dao
+1
+d/home/zl/Work/project/xiron/promotions/promotions-dao/src/main/java/com/xiron/promotions/dao
+	..
+0
+d/home/zl/Work/project/xiron/promotions/promotions-dao/src/main/java/com/xiron/promotions
+	po
+2
+d/home/zl/Work/project/xiron/promotions/promotions-dao/src/main/java/com/xiron/promotions/po
+	Client.java
+1
+d/home/zl/Work/project/xiron/promotions/promotions-dao/src/main/java/com/xiron/promotions
+	dao
+1
+d/home/zl/Work/project/xiron/promotions/promotions-dao/src/main/java/com/xiron
+	promotions
+1
+d/home/zl/Work/project/xiron/promotions/promotions-dao/src/main/java/com
+	xiron
+1
+d/home/zl/Work/project/xiron/promotions/promotions-dao/src/main/java
+	com
+1
+d/home/zl/Work/project/xiron/promotions/promotions-dao/src/main
+	java
+1
+d/home/zl/Work/project/xiron/promotions/promotions-dao/src
+	main
+1
+d/home/zl/Work/project/xiron/promotions/promotions-dao
+	src
+1
+d/home/zl/Work/project/xiron/promotions
+	promotions-service
+5
+d/home/zl/Work/project/xiron/promotions/promotions-service
+	src
+1
+d/home/zl/Work/project/xiron/promotions/promotions-service/src
+	main
+1
+d/home/zl/Work/project/xiron/promotions/promotions-service/src/main
+	java
+1
+d/home/zl/Work/project/xiron/promotions/promotions-service/src/main/java
+	com
+1
+d/home/zl/Work/project/xiron/promotions/promotions-service/src/main/java/com
+	xiron
+1
+d/home/zl/Work/project/xiron/promotions/promotions-service/src/main/java/com/xiron
+	promotions
+1
+d/home/zl/Work/project/xiron/promotions/promotions-service/src/main/java/com/xiron/promotions
+	vo
+5
+d/home/zl/Work/project/xiron/promotions/promotions-service/src/main/java/com/xiron/promotions/vo
+	product
+4
+d/home/zl/Work/project/xiron/promotions/promotions-service/src/main/java/com/xiron/promotions/vo/product
+	ProductSelectedDictVO.java
+1
+d/home/zl/Work/project/xiron/promotions/promotions-service/src/main/java/com/xiron/promotions/vo
+	collect
+3
+d/home/zl/Work/project/xiron/promotions/promotions-service/src/main/java/com/xiron/promotions
+	service
+4
+d/home/zl/Work/project/xiron/promotions/promotions-service/src/main/java/com/xiron/promotions/service
+	product
+5
+d/home/zl/Work/project/xiron/promotions/promotions-service/src/main/java/com/xiron/promotions/service/product
+	ProductCollectService.java
+2
+d/home/zl/Work/project/xiron/promotions/promotions-service/src/main/java/com/xiron/promotions/service
+	product
+5
+d/home/zl/Work/project/xiron/promotions/promotions-service/src/main/java/com/xiron/promotions
+	service
+4
+d/home/zl/Work/project/xiron/promotions/promotions-service/src/main/java/com/xiron
+	promotions
+1
+d/home/zl/Work/project/xiron/promotions/promotions-service/src/main/java/com
+	xiron
+1
+d/home/zl/Work/project/xiron/promotions/promotions-service/src/main/java
+	com
+1
+d/home/zl/Work/project/xiron/promotions/promotions-service/src/main
+	java
+1
+d/home/zl/Work/project/xiron/promotions/promotions-service/src
+	main
+1
+d/home/zl/Work/project/xiron/promotions/promotions-service
+	src
+1
+d/home/zl/Work/project/xiron/promotions
+	promotions-rpc-service
+4
+d/home/zl/Work/project/xiron/promotions/promotions-rpc-service
+	src
+2
+d/home/zl/Work/project/xiron/promotions/promotions-rpc-service/src
+	main
+1
+d/home/zl/Work/project/xiron/promotions/promotions-rpc-service/src/main
+	java
+1
+d/home/zl/Work/project/xiron/promotions/promotions-rpc-service/src/main/java
+	com
+1
+d/home/zl/Work/project/xiron/promotions/promotions-rpc-service/src/main/java/com
+	xiron
+1
+d/home/zl/Work/project/xiron/promotions/promotions-rpc-service/src/main/java/com/xiron
+	promotions
+1
+d/home/zl/Work/project/xiron/promotions/promotions-rpc-service/src/main/java/com/xiron/promotions
+	service
+1
+d/home/zl/Work/project/xiron/promotions/promotions-rpc-service/src/main/java/com/xiron/promotions/service
+	impl
+1
+d/home/zl/Work/project/xiron/promotions/promotions-rpc-service/src/main/java/com/xiron/promotions/service/impl
+	product
+3
+d/home/zl/Work/project/xiron/promotions/promotions-rpc-service/src/main/java/com/xiron/promotions/service/impl/product
+	..
+0
+d/home/zl/Work/project/xiron/promotions/promotions-rpc-service/src/main/java/com/xiron/promotions/service/impl
+	product
+4
+d/home/zl/Work/project/xiron/promotions/promotions-rpc-service/src/main/java/com/xiron/promotions/service
+	impl
+1
+d/home/zl/Work/project/xiron/promotions/promotions-rpc-service/src/main/java/com/xiron/promotions
+	..
+0
+d/home/zl/Work/project/xiron/promotions/promotions-rpc-service/src/main/java/com/xiron
+	promotions
+1
+d/home/zl/Work/project/xiron/promotions/promotions-rpc-service/src/main/java/com
+	xiron
+1
+d/home/zl/Work/project/xiron/promotions/promotions-rpc-service/src/main/java
+	com
+1
+d/home/zl/Work/project/xiron/promotions/promotions-rpc-service/src/main
+	java
+1
+d/home/zl/Work/project/xiron/promotions/promotions-rpc-service/src
+	main
+1
+d/home/zl/Work/project/xiron/promotions/promotions-rpc-service
+	src
+2
+d/home/zl/Downloads
+	code-promotions.zip
+11
+d/home/zl/.local/share/vifm/fuse/001_code-promotions.zip
+	src
+1
+d/home/zl/Downloads
+	OKR工作法：谷歌、领英等顶级公司的高绩效秘籍 (pdf+azw3+epub+mobi+txt+docx).rar
+17
+d
+
+# Right window history (oldest to newest):
+D/tmp/tomcat.7424403322996843296.8000/work
+	Tomcat
+1
+D/tmp/tomcat.7424403322996843296.8000/work/Tomcat
+	localhost
+1
+D/tmp/tomcat.7424403322996843296.8000/work/Tomcat/localhost
+	ROOT
+1
+D/tmp/tomcat.7424403322996843296.8000/work/Tomcat/localhost/ROOT
+	..
+0
+D/tmp/tomcat.7424403322996843296.8000/work/Tomcat/localhost
+	ROOT
+1
+D/tmp/tomcat.7424403322996843296.8000/work/Tomcat
+	localhost
+1
+D/tmp/tomcat.7424403322996843296.8000/work
+	Tomcat
+1
+D/tmp/tomcat.7424403322996843296.8000
+	work
+1
+D/
+	var
+21
+D/var
+	backups
+1
+D/var/backups
+	alternatives.tar.1.gz
+2
+D/var
+	cache
+2
+D/var/cache
+	..
+0
+D/var
+	lib
+4
+D/var/lib
+	boltd
+12
+D/var/lib/boltd
+	..
+0
+D/var/lib
+	bluetooth
+11
+D/var/lib/bluetooth
+	00:28:F8:BE:85:9C
+1
+D/var/lib
+	docker
+21
+D/var/lib/docker
+	buildkit
+2
+D/var/lib
+	docker
+21
+D/home/zl
+	Baidu
+1
+D/home/zl/Baidu
+	..
+0
+D/home/zl
+	..
+0
+D/home
+	zl
+2
+D/home/zl
+	Docker
+5
+D/home/zl/Docker
+	..
+0
+D/home/zl
+	Documents
+6
+D/home/zl/Documents
+	..
+0
+D/home/zl
+	Documents
+6
+D/home/zl/Documents
+	github_system_architect
+1
+D/home/zl/Documents/github_system_architect
+	..
+0
+D/home/zl/Documents
+	old_friend
+2
+D/home/zl/Documents/old_friend
+	..
+0
+D/home/zl/Documents
+	ruankao
+3
+D/home/zl/Documents/ruankao
+	..
+0
+D/home/zl/Documents
+	system_architect
+4
+D/home/zl/Documents/system_architect
+	..
+0
+D/home/zl/Documents
+	system_architect
+1
+D/home/zl
+	Docker
+6
+D/home
+	zl
+4
+D/home/zl
+	src
+15
+D/home
+	zl
+4
+D/
+	tmp
+20
+D/tmp
+	PromotionsFlowCaseMapper.xml
+22
+D/
+	sys
+19
+D/home/zl
+	..
+0
+D/
+	sys
+19
+D/home/zl
+	..
+0
+D/home
+	zl
+4
+D/
+	home
+4
+D/home/zl/Downloads
+	code-promotions.zip
+7
+D/home/zl/.local/share/vifm/fuse/001_code-promotions.zip
+	src
+1
+D/home/zl/.local/share/vifm/fuse/001_code-promotions.zip/src
+	main
+1
+D/home/zl/.local/share/vifm/fuse/001_code-promotions.zip/src/main
+	java
+1
+D/home/zl/.local/share/vifm/fuse/001_code-promotions.zip/src/main/java
+	com
+1
+D/home/zl/.local/share/vifm/fuse/001_code-promotions.zip/src/main/java/com
+	xiron
+1
+D/home/zl/.local/share/vifm/fuse/001_code-promotions.zip/src/main/java/com/xiron
+	promotions
+1
+D/home/zl/.local/share/vifm/fuse/001_code-promotions.zip/src/main/java/com/xiron/promotions
+	vo
+5
+D/home/zl/.local/share/vifm/fuse/001_code-promotions.zip/src/main/java/com/xiron/promotions/vo
+	PromotionsAuditLogVO.java
+1
+D/home/zl/.local/share/vifm/fuse/001_code-promotions.zip/src/main/java/com/xiron/promotions
+	vo
+5
+D/home/zl/.local/share/vifm/fuse/001_code-promotions.zip/src/main/java/com/xiron
+	promotions
+1
+D/home/zl/.local/share/vifm/fuse/001_code-promotions.zip/src/main/java/com
+	xiron
+1
+D/home/zl/.local/share/vifm/fuse/001_code-promotions.zip/src/main/java
+	com
+1
+D/home/zl/.local/share/vifm/fuse/001_code-promotions.zip/src/main
+	java
+1
+D/home/zl/.local/share/vifm/fuse/001_code-promotions.zip/src
+	main
+1
+D/home/zl/.local/share/vifm/fuse/001_code-promotions.zip
+	src
+1
+D/home/zl/Downloads
+	code-promotions.zip
+7
+D/home/zl/.local/share/vifm/fuse/001_code-promotions.zip
+	src
+1
+D/home/zl/.local/share/vifm/fuse/001_code-promotions.zip/src
+	main
+1
+D/home/zl/.local/share/vifm/fuse/001_code-promotions.zip/src/main
+	resources
+2
+D/home/zl/.local/share/vifm/fuse/001_code-promotions.zip/src/main/resources
+	mapper
+1
+D/home/zl/.local/share/vifm/fuse/001_code-promotions.zip/src/main/resources/mapper
+	
+1
+D/home/zl/.local/share/vifm/fuse/001_code-promotions.zip
+	PromotionsAuditLogMapper.xml
+1
+D/home/zl/Downloads
+	code-promotions.zip
+7
+D/home/zl/.local/share/vifm/fuse/001_code-promotions.zip
+	..
+0
+D/home/zl/Downloads
+	code-promotions-product-selected.zip
+8
+D/home/zl/.local/share/vifm/fuse/001_code-promotions-product-selected.zip
+	src
+1
+D/home/zl/.local/share/vifm/fuse/001_code-promotions-product-selected.zip/src
+	main
+1
+D/home/zl/.local/share/vifm/fuse/001_code-promotions-product-selected.zip/src/main
+	resources
+2
+D/home/zl/.local/share/vifm/fuse/001_code-promotions-product-selected.zip/src/main/resources
+	mapper
+1
+D/home/zl/.local/share/vifm/fuse/001_code-promotions-product-selected.zip/src/main/resources/mapper
+	PromotionsProductSelectedMapper.xml
+1
+D/home/zl/.local/share/vifm/fuse/001_code-promotions-product-selected.zip/src/main/resources
+	mapper
+1
+D/home/zl/.local/share/vifm/fuse/001_code-promotions-product-selected.zip/src/main
+	java
+1
+D/home/zl/.local/share/vifm/fuse/001_code-promotions-product-selected.zip/src/main/java
+	com
+1
+D/home/zl/.local/share/vifm/fuse/001_code-promotions-product-selected.zip/src/main/java/com
+	xiron
+1
+D/home/zl/.local/share/vifm/fuse/001_code-promotions-product-selected.zip/src/main/java/com/xiron
+	promotions
+1
+D/home/zl/.local/share/vifm/fuse/001_code-promotions-product-selected.zip/src/main/java/com/xiron/promotions
+	po
+3
+D/home/zl/.local/share/vifm/fuse/001_code-promotions-product-selected.zip/src/main/java/com/xiron/promotions/po
+	PromotionsProductSelected.java
+1
+D/home/zl/.local/share/vifm/fuse/001_code-promotions-product-selected.zip/src/main/java/com/xiron/promotions
+	po
+3
+D/home/zl/.local/share/vifm/fuse/001_code-promotions-product-selected.zip/src/main/java/com/xiron
+	promotions
+1
+D/home/zl/.local/share/vifm/fuse/001_code-promotions-product-selected.zip/src/main/java/com
+	xiron
+1
+D/home/zl/.local/share/vifm/fuse/001_code-promotions-product-selected.zip/src/main/java/com/xiron
+	promotions
+1
+D/home/zl/.local/share/vifm/fuse/001_code-promotions-product-selected.zip/src/main/java/com/xiron/promotions
+	vo
+5
+D/home/zl/.local/share/vifm/fuse/001_code-promotions-product-selected.zip/src/main/java/com/xiron/promotions/vo
+	PromotionsProductSelectedVO.java
+1
+D/home/zl/.local/share/vifm/fuse/001_code-promotions-product-selected.zip/src/main/java/com/xiron/promotions
+	service
+4
+D/home/zl/.local/share/vifm/fuse/001_code-promotions-product-selected.zip/src/main/java/com/xiron/promotions/service
+	impl
+1
+D/home/zl/.local/share/vifm/fuse/001_code-promotions-product-selected.zip/src/main/java/com/xiron/promotions/service/impl
+	
+1
+D/home/zl/.local/share/vifm/fuse/001_code-promotions-product-selected.zip
+	PromotionsProductSelectedServiceImpl.java
+1
+D/home/zl/Downloads
+	code-promotions-product-selected.zip
+10
+D
+
+# Command line history (oldest to newest):
+:cd ~
+:man
+:cdxiron
+:mkdir flow
+:pwd
+:mv ./flow ./audit
+:cd ~/Downloads/src/
+:mkdir audit
+:echo
+:touch a.txt
+:cd /tmp
+:sort
+:sort=-mtime
+:!!sort 
+:sort mtime
+:set sort=+mtime
+:set sort=-mtime
+:cd ~/Work/Doc/
+:sort=+mtime
+:sort +mtime
+:xdg-open
+:help
+:unzip 
+:unzip
+:jk
+:only
+:q:
+:q
+:cd ~/Downloads/
+
+# Search history (oldest to newest):
+/Wor
+/Work
+/promo
+/PR
+/help
+/index
+/doc
+/wor
+/Down
+/docx
+/2.2
+/V
+/PRD
+/促销
+/pdf
+/Vi
+/md
+/RY
+/tmp
+/Promo
+/promotions
+
+# Prompt history (oldest to newest):
+paudit
+
+# Local filter history (oldest to newest):
+
+# Registers:
+""/home/zl/.local/share/vifm/fuse/001_code-promotions-product-selected.zip/src/main/java/com/xiron/promotions/service/impl/PromotionsProductSelectedServiceImpl.java
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+t/home/zl/.local/share/vifm/Trash/000_index.html
+	/home/zl/index.html
+t/home/zl/.local/share/vifm/Trash/000_index.html.1
+	/home/zl/index.html.1
+t/home/zl/.local/share/vifm/Trash/000_index.html.2
+	/home/zl/index.html.2
+t/home/zl/.local/share/vifm/Trash/000_index.html.3
+	/home/zl/index.html.3
+t/home/zl/.local/share/vifm/Trash/000_index.html.4
+	/home/zl/index.html.4
+t/home/zl/.local/share/vifm/Trash/000_index.html.5
+	/home/zl/index.html.5
+t/home/zl/.local/share/vifm/Trash/000_index.html.6
+	/home/zl/index.html.6
+t/home/zl/.local/share/vifm/Trash/000_xiron-data
+	/home/zl/Work/project/gitstat/xiron-data
+t/home/zl/.local/share/vifm/Trash/000_light-1.2.1
+	/home/zl/Downloads/light-1.2.1
+t/home/zl/.local/share/vifm/Trash/000_2018信息技术
+	/home/zl/Downloads/2018信息技术
+t/home/zl/.local/share/vifm/Trash/000_Office2013
+	/home/zl/Downloads/Office2013
+t/home/zl/.local/share/vifm/Trash/000_Office2013lspjjj4n1_XiTongZhiJia
+	/home/zl/Office2013lspjjj4n1_XiTongZhiJia
+t/home/zl/.local/share/vifm/Trash/001_Office2013lspjjj4n1_XiTongZhiJia
+	/home/zl/Downloads/Office2013lspjjj4n1_XiTongZhiJia
+t/home/zl/.local/share/vifm/Trash/000_om
+	/home/zl/Downloads/om
+t/home/zl/.local/share/vifm/Trash/000_促销管理
+	/home/zl/Downloads/促销管理
+t/home/zl/.local/share/vifm/Trash/000_2018年员工年终工作总结表-技术产品中心-赵亮.docx
+	/home/zl/Downloads/2018年员工年终工作总结表-技术产品中心-赵亮.docx
+t/home/zl/.local/share/vifm/Trash/000____项目开发计划模版.xlsx
+	/home/zl/Downloads/___项目开发计划模版.xlsx
+t/home/zl/.local/share/vifm/Trash/000_Application.pdf
+	/home/zl/Downloads/Application.pdf
+t/home/zl/.local/share/vifm/Trash/000_AUTHORS
+	/home/zl/Downloads/AUTHORS
+t/home/zl/.local/share/vifm/Trash/000_A单其他成本20191107.xlsx
+	/home/zl/Downloads/A单其他成本20191107.xlsx
+t/home/zl/.local/share/vifm/Trash/000_background.html
+	/home/zl/Downloads/background.html
+t/home/zl/.local/share/vifm/Trash/000_baidunetdisk_linux_2.0.2.deb
+	/home/zl/Downloads/baidunetdisk_linux_2.0.2.deb
+t/home/zl/.local/share/vifm/Trash/000_bookmarks.html
+	/home/zl/Downloads/bookmarks.html
+t/home/zl/.local/share/vifm/Trash/000_chrome-remote-desktop_current_amd64.deb
+	/home/zl/Downloads/chrome-remote-desktop_current_amd64.deb
+t/home/zl/.local/share/vifm/Trash/000_clash-linux-amd64-v0.17.1
+	/home/zl/Downloads/clash-linux-amd64-v0.17.1
+t/home/zl/.local/share/vifm/Trash/000_com.basecamp.bc3_256_apps.evozi.com.apk
+	/home/zl/Downloads/com.basecamp.bc3_256_apps.evozi.com.apk
+t/home/zl/.local/share/vifm/Trash/000_com.github.shadowsocks_4080501_apps.evozi.com.apk
+	/home/zl/Downloads/com.github.shadowsocks_4080501_apps.evozi.com.apk
+t/home/zl/.local/share/vifm/Trash/000_com.google.android.youtube_1443552000_apps.evozi.com.apk
+	/home/zl/Downloads/com.google.android.youtube_1443552000_apps.evozi.com.apk
+t/home/zl/.local/share/vifm/Trash/000_com.termux_81_apps.evozi.com.apk
+	/home/zl/Downloads/com.termux_81_apps.evozi.com.apk
+t/home/zl/.local/share/vifm/Trash/000_config.yml
+	/home/zl/Downloads/config.yml
+t/home/zl/.local/share/vifm/Trash/000_COPYING
+	/home/zl/Downloads/COPYING
+t/home/zl/.local/share/vifm/Trash/000_dingtalk-2.1.1-latest-amd64.deb
+	/home/zl/Downloads/dingtalk-2.1.1-latest-amd64.deb
+t/home/zl/.local/share/vifm/Trash/000_httptoolkit_0.1.16_amd64.deb
+	/home/zl/Downloads/httptoolkit_0.1.16_amd64.deb
+t/home/zl/.local/share/vifm/Trash/000_ideaIU-2019.3.tar.gz
+	/home/zl/Downloads/ideaIU-2019.3.tar.gz
+t/home/zl/.local/share/vifm/Trash/000_jdk-11.0.5_linux-x64_bin.tar.gz
+	/home/zl/Downloads/jdk-11.0.5_linux-x64_bin.tar.gz
+t/home/zl/.local/share/vifm/Trash/000_jetbrains-agent-latest (1).zip
+	/home/zl/Downloads/jetbrains-agent-latest (1).zip
+t/home/zl/.local/share/vifm/Trash/000_jetbrains-agent-latest.zip
+	/home/zl/Downloads/jetbrains-agent-latest.zip
+t/home/zl/.local/share/vifm/Trash/000_JetBrainsMono-1.0.0.zip
+	/home/zl/Downloads/JetBrainsMono-1.0.0.zip
+t/home/zl/.local/share/vifm/Trash/000_lALPDgQ9rOMIrXB-zQZv_1647_126.png
+	/home/zl/Downloads/lALPDgQ9rOMIrXB-zQZv_1647_126.png
+t/home/zl/.local/share/vifm/Trash/000_light-1.2.1.tar.gz
+	/home/zl/Downloads/light-1.2.1.tar.gz
+t/home/zl/.local/share/vifm/Trash/000_mac-ClashX.dmg
+	/home/zl/Downloads/mac-ClashX.dmg
+t/home/zl/.local/share/vifm/Trash/000_manifest.json
+	/home/zl/Downloads/manifest.json
+t/home/zl/.local/share/vifm/Trash/000_Noname1.txt
+	/home/zl/Downloads/Noname1.txt
+t/home/zl/.local/share/vifm/Trash/000_Office2013lspjjj4n1.rar
+	/home/zl/Downloads/Office2013lspjjj4n1.rar
+t/home/zl/.local/share/vifm/Trash/000_Office2013lspjjj4n1_XiTongZhiJia.zip
+	/home/zl/Downloads/Office2013lspjjj4n1_XiTongZhiJia.zip
+t/home/zl/.local/share/vifm/Trash/000_options.html
+	/home/zl/Downloads/options.html
+t/home/zl/.local/share/vifm/Trash/000_owl_eye-wallpaper-3440x1440.jpg
+	/home/zl/Downloads/owl_eye-wallpaper-3440x1440.jpg
+t/home/zl/.local/share/vifm/Trash/000_popup.html
+	/home/zl/Downloads/popup.html
+t/home/zl/.local/share/vifm/Trash/000_python.zip
+	/home/zl/Downloads/python.zip
+t/home/zl/.local/share/vifm/Trash/000_QF2019-009（Z）-业务数字化小组及技术中心图书项目组第一次全体会议.pdf
+	/home/zl/Downloads/QF2019-009（Z）-业务数字化小组及技术中心图书项目组第一次全体会议.pdf
+t/home/zl/.local/share/vifm/Trash/000_reprint_book_20200115183451.xls
+	/home/zl/Downloads/reprint_book_20200115183451.xls
+t/home/zl/.local/share/vifm/Trash/000_sh数据迁移方案(1).md
+	/home/zl/Downloads/sh数据迁移方案(1).md
+t/home/zl/.local/share/vifm/Trash/000_sh数据迁移方案.md
+	/home/zl/Downloads/sh数据迁移方案.md
+t/home/zl/.local/share/vifm/Trash/000_ss-mac.zip
+	/home/zl/Downloads/ss-mac.zip
+t/home/zl/.local/share/vifm/Trash/000_ssr.7z
+	/home/zl/Downloads/ssr.7z
+t/home/zl/.local/share/vifm/Trash/000_ssrr-android.apk
+	/home/zl/Downloads/ssrr-android.apk
+t/home/zl/.local/share/vifm/Trash/000_teamviewer_15.1.3937_amd64.deb
+	/home/zl/Downloads/teamviewer_15.1.3937_amd64.deb
+t/home/zl/.local/share/vifm/Trash/000_Termux_v0.73_apkpure.com.apk
+	/home/zl/Downloads/Termux_v0.73_apkpure.com.apk
+t/home/zl/.local/share/vifm/Trash/000_Untitled 1.ods
+	/home/zl/Downloads/Untitled 1.ods
+t/home/zl/.local/share/vifm/Trash/000_wget-log
+	/home/zl/Downloads/wget-log
+t/home/zl/.local/share/vifm/Trash/000_win-ssr.7z
+	/home/zl/Downloads/win-ssr.7z
+t/home/zl/.local/share/vifm/Trash/001_wps-office_11.1.0.8865_amd64.deb
+	/home/zl/Downloads/wps-office_11.1.0.8865_amd64.deb
+t/home/zl/.local/share/vifm/Trash/000_wps-office_11.1.0.9080.XA_amd64.deb
+	/home/zl/Downloads/wps-office_11.1.0.9080.XA_amd64.deb
+t/home/zl/.local/share/vifm/Trash/000_WPS_2019新版.exe
+	/home/zl/Downloads/WPS_2019新版.exe
+t/home/zl/.local/share/vifm/Trash/000_yEd-3.19.1.1_with-JRE13_64-bit_setup.sh
+	/home/zl/Downloads/yEd-3.19.1.1_with-JRE13_64-bit_setup.sh
+t/home/zl/.local/share/vifm/Trash/000_【个税】最后一个月！再不确认就晚啦！.pdf
+	/home/zl/Downloads/【个税】最后一个月！再不确认就晚啦！.pdf
+t/home/zl/.local/share/vifm/Trash/000_【批量下载】软考系统架构设计师考试论文应试技巧等.zip
+	/home/zl/Downloads/【批量下载】软考系统架构设计师考试论文应试技巧等.zip
+t/home/zl/.local/share/vifm/Trash/000_信息技术选择题最新.docx
+	/home/zl/Downloads/信息技术选择题最新.docx
+t/home/zl/.local/share/vifm/Trash/000_未导入-结算方式不对.xls
+	/home/zl/Downloads/未导入-结算方式不对.xls
+t/home/zl/.local/share/vifm/Trash/000_补充版税信息(1).xlsx
+	/home/zl/Downloads/补充版税信息(1).xlsx
+t/home/zl/.local/share/vifm/Trash/000_补充版税信息(2).xlsx
+	/home/zl/Downloads/补充版税信息(2).xlsx
+t/home/zl/.local/share/vifm/Trash/000_补充版税信息.xlsx
+	/home/zl/Downloads/补充版税信息.xlsx
+t/home/zl/.local/share/vifm/Trash/000_成本台账公式组（10月数据导入版）--最终版（百分号下期需保留） (1).xlsx
+	/home/zl/Downloads/成本台账公式组（10月数据导入版）--最终版（百分号下期需保留） (1).xlsx
+t/home/zl/.local/share/vifm/Trash/000_成本台账公式组（10月数据导入版）--最终版（百分号下期需保留）.xlsx
+	/home/zl/Downloads/成本台账公式组（10月数据导入版）--最终版（百分号下期需保留）.xlsx
+t/home/zl/.local/share/vifm/Trash/000_成本台账公式组（11月数据导入版）（百分号下期需保留）最终版 (1).xlsx
+	/home/zl/Downloads/成本台账公式组（11月数据导入版）（百分号下期需保留）最终版 (1).xlsx
+t/home/zl/.local/share/vifm/Trash/000_成本台账公式组（11月数据导入版）（百分号下期需保留）最终版 (2).xlsx
+	/home/zl/Downloads/成本台账公式组（11月数据导入版）（百分号下期需保留）最终版 (2).xlsx
+t/home/zl/.local/share/vifm/Trash/000_成本台账公式组（11月数据导入版）（百分号下期需保留）最终版.xlsx
+	/home/zl/Downloads/成本台账公式组（11月数据导入版）（百分号下期需保留）最终版.xlsx
+t/home/zl/.local/share/vifm/Trash/001_数据同步平台技术框架.docx
+	/home/zl/Downloads/数据同步平台技术框架.docx
+t/home/zl/.local/share/vifm/Trash/000_版税计算系统优化 PRD-12.04.docx
+	/home/zl/Downloads/版税计算系统优化 PRD-12.04.docx
+t/home/zl/.local/share/vifm/Trash/000_java_error_in_IDEA_2882.log
+	/home/zl/java_error_in_IDEA_2882.log
+t/home/zl/.local/share/vifm/Trash/000_clash
+	/home/zl/clash
+t/home/zl/.local/share/vifm/Trash/000_content
+	/home/zl/content
+t/home/zl/.local/share/vifm/Trash/000_SecureCRT.desktop
+	/home/zl/Desktop/SecureCRT.desktop
+t/home/zl/.local/share/vifm/Trash/000_wps-office-et.desktop
+	/home/zl/Desktop/wps-office-et.desktop
+t/home/zl/.local/share/vifm/Trash/000_wps-office-pdf.desktop
+	/home/zl/Desktop/wps-office-pdf.desktop
+t/home/zl/.local/share/vifm/Trash/000_wps-office-prometheus.desktop
+	/home/zl/Desktop/wps-office-prometheus.desktop
+t/home/zl/.local/share/vifm/Trash/000_wps-office-wpp.desktop
+	/home/zl/Desktop/wps-office-wpp.desktop
+t/home/zl/.local/share/vifm/Trash/000_wps-office-wps.desktop
+	/home/zl/Desktop/wps-office-wps.desktop
+t/home/zl/.local/share/vifm/Trash/000_xxl-job-data-init.sql
+	/home/zl/Desktop/xxl-job-data-init.sql
+t/home/zl/.local/share/vifm/Trash/000_reprint.sql
+	/home/zl/Desktop/reprint.sql
+t/home/zl/.local/share/vifm/Trash/000_batch_sale_remark.csv
+	/home/zl/Desktop/batch_sale_remark.csv
+t/home/zl/.local/share/vifm/Trash/000_batch_sale_remark.tsv
+	/home/zl/Desktop/batch_sale_remark.tsv
+t/home/zl/.local/share/vifm/Trash/000_csopyright_info.sql
+	/home/zl/Desktop/csopyright_info.sql
+t/home/zl/.local/share/vifm/Trash/000_cuxiao_design.sql
+	/home/zl/Desktop/cuxiao_design.sql
+t/home/zl/.local/share/vifm/Trash/000_data_sync_tables.sql
+	/home/zl/Desktop/data_sync_tables.sql
+t/home/zl/.local/share/vifm/Trash/000_dic_option_new.sql
+	/home/zl/Desktop/dic_option_new.sql
+t/home/zl/.local/share/vifm/Trash/000_net_copyright20200114.sql
+	/home/zl/Desktop/net_copyright20200114.sql
+t/home/zl/.local/share/vifm/Trash/000_new_copyright-20200111.sql
+	/home/zl/Desktop/new_copyright-20200111.sql
+t/home/zl/.local/share/vifm/Trash/000_new_copyright.sql
+	/home/zl/Desktop/new_copyright.sql
+t/home/zl/.local/share/vifm/Trash/000_new_copyright0104.sql
+	/home/zl/Desktop/new_copyright0104.sql
+t/home/zl/.local/share/vifm/Trash/000_new_copyright0107.sql
+	/home/zl/Desktop/new_copyright0107.sql
+t/home/zl/.local/share/vifm/Trash/000_new_copyright_info.sql
+	/home/zl/Desktop/new_copyright_info.sql
+t/home/zl/.local/share/vifm/Trash/000_new_reprint.sql
+	/home/zl/Desktop/new_reprint.sql
+t/home/zl/.local/share/vifm/Trash/000_new_sales.sql
+	/home/zl/Desktop/new_sales.sql
+t/home/zl/.local/share/vifm/Trash/000_new_store.sql
+	/home/zl/Desktop/new_store.sql
+t/home/zl/.local/share/vifm/Trash/000_new_store_schema.sql
+	/home/zl/Desktop/new_store_schema.sql
+t/home/zl/.local/share/vifm/Trash/000_promotions_from_new.sql
+	/home/zl/Desktop/promotions_from_new.sql
+t/home/zl/.local/share/vifm/Trash/000_promotions_schema.sql
+	/home/zl/Desktop/promotions_schema.sql
+t/home/zl/.local/share/vifm/Trash/000_SecoClient.desktop
+	/home/zl/Desktop/SecoClient.desktop
+t/home/zl/.local/share/vifm/Trash/000_WT问题.md
+	/home/zl/Work/Doc/WT问题.md
+t/home/zl/.local/share/vifm/Trash/000_sh数据迁移.md
+	/home/zl/Work/Doc/sh数据迁移.md
+t/home/zl/.local/share/vifm/Trash/000_sh数据迁移方案.md
+	/home/zl/Work/Doc/sh数据迁移方案.md
+t/home/zl/.local/share/vifm/Trash/000_a.xlsx
+	/home/zl/a.xlsx
+t/home/zl/.local/share/vifm/Trash/000_package-lock.json
+	/home/zl/package-lock.json
+t/home/zl/.local/share/vifm/Trash/000_product_2020_03_06_11_43_05.txt
+	/home/zl/product_2020_03_06_11_43_05.txt
+
+# State:
+f
+i1
+[.1
+[F
+F
+I1
+].1
+]F
+s0
