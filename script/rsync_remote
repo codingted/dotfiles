@@ -1,0 +1,5 @@
+#!/bin/sh
+sudo mount /dev/sdb1 /mnt/back
+sudo rsync -avzh  root@108.61.247.137:/home/* /mnt/back/remote/home
+sudo rsync -avzh  root@108.61.247.137:/root/* /mnt/back/remote/root
+sudo umount /mnt/back

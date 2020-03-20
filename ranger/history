@@ -1,0 +1,26 @@
+open_with -h
+okular
+open_with okular
+m
+feh --bg-fill 1490215890981.jpg
+fet --bg-fill
+feh --bg-fill
+rename 【203】The+One+Where+Mr+Heckles+Dies.doc
+search LH
+find 
+rename LH20200311.md
+open_with 
+rename 费用_入库数据影响.graphml
+delete
+rename tagged
+
+vi colorschemes
+draw_bookmarks q
+touch colorschemes
+open_with l
+open_with j
+open_with vi
+search demo
+search code
+search zip
+execute_console 

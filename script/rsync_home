@@ -1,0 +1,4 @@
+#!/bin/sh
+sudo mount /dev/sdb1 /mnt/back
+sudo rsync -av /home  /mnt/back/home_bak
+sudo umount /mnt/back
