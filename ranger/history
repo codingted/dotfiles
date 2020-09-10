@@ -1,8 +1,3 @@
-open_with -h
-okular
-open_with okular
-m
-feh --bg-fill 1490215890981.jpg
 fet --bg-fill
 feh --bg-fill
 rename 【203】The+One+Where+Mr+Heckles+Dies.doc
@@ -11,13 +6,11 @@ find
 rename LH20200311.md
 rename 费用_入库数据影响.graphml
 rename tagged
-
 vi colorschemes
 draw_bookmarks q
 touch colorschemes
 open_with l
 open_with j
-open_with vi
 search demo
 search code
 search zip
@@ -25,5 +18,33 @@ execute_console
 rename yinzhang.png
 search pdf
 extract 
+search xlsx
+help
+/home/zl/Work/project/xiron/xiron-mgr/xiron-mgr-dao/src/main/java/com/xiron/mgr/royalty/dao
+cd -
+cd /home/zl/Work/project/xiron/xiron-mgr/xiron-mgr-dao/src/main/java/com/xiron/mgr/royalty/dao
+search down
+search a
+rename b
+rename a.xlsx
+open_with vi
+bulkrename 
+shell ls
+shell pwd
+shell ls -al %s
+shell -w ls -al %s
+shell -w df
+set colorscheme jungle
+set colorscheme snow
+set colorscheme solarized
+set colorscheme default
+search ranger
+terminal 
+search home
+search work
+map D shell trash %s
+open_with libreoffice7.0
 open_with 
+
+open_with libreoffice7.
 delete
