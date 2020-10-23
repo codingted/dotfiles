@@ -1,4 +1,4 @@
-"配置文件.vimrc更改后自动重新载入使设置生效
+"置文件.vimrc更改后自动重新载入使设置生效
 autocmd! bufwritepost .vimrc source ~/.vimrc
 
 " vundle 管理插件###############START

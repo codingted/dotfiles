@@ -4,7 +4,7 @@
 URxvt.preeditType:Root
 !!URxvt.letterSpace: 1 
 !!调整此处设置输入法
-URxvt.inputMethod:ibus
+URxvt.inputMethod:fcitx
 !!颜色设置
 URxvt.depth:32
 !!透明度
@@ -31,7 +31,7 @@ URxvt.perl-ext-common:  default,matcher,font-size,url-select,keyboard-select
 URxvt.colorUL:      #4682B4
 !! keyboard-select
 URxvt.keysym.M-Escape: perl:keyboard-select:activate
-URxvt.keysym.M-s: perl:keyboard-select:search
+!URxvt.keysym.M-s: perl:keyboard-select:search
 URxvt.keyboard-select.clipboard: true
 !!设置字体大小
 URxvt.keysym.C-j:     font-size:increase
@@ -61,7 +61,6 @@ URxvt.borderLess:False
 !!字体设置
 Xft.dpi:96
 URxvt.font:xft:IBM Plex Mono SemiBold:pixelsize=18,xft:WenQuanYi Micro Hei Mono:regular:size=13:minspace=False,xft:DejaVu Sans:size=12,xft:BlexMono Nerd Font:antialias=true:pixelsize=10
-!! URxvt.font:xft:IBM Plex Mono SemiBold:pixelsize=18,xft:Noto Sans Mono CJK HK:regular:size=13:minspace=False,xft:DejaVu Sans:size=12
 !mode
 URxvt.iso14755: false
 URxvt.iso14755_52: false

@@ -1,4 +1,3 @@
-fet --bg-fill
 feh --bg-fill
 rename 【203】The+One+Where+Mr+Heckles+Dies.doc
 search LH
@@ -47,4 +46,5 @@ open_with libreoffice7.0
 open_with 
 
 open_with libreoffice7.
+search mnt
 delete
