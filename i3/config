@@ -28,9 +28,9 @@ font pango:monospace 8
 # the arrows is not convenient
 set $mod Mod1
 set $win Mod4
-set $up k
-set $down j
 set $left h
+set $down j
+set $up k
 set $right l
 
 # use Mouse+$mod to drag floating windows to their wanted position
@@ -83,6 +83,21 @@ bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
+
+# color
+# class                 border  backgr. text    indicator child_border
+#client.focused          #930000 #930000 #ffffff #2e9ef4   #285577
+#client.focused_inactive #333333 #930000 #ffffff #484e50   #5f676a
+#client.unfocused        #333333 #930000 #888888 #292d2e   #222222
+#client.urgent           #2f343a #930000 #ffffff #900000   #900000
+#client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
+# class                 border  backgr. text    indicator
+client.placeholder      #242424 #242424 #242424
+client.background       #242424 #242424 #242424
+client.focused          #4A4A4A #930000 #e5e5e5 #4A4A4A
+client.unfocused        #222222 #222222 #aaaaaa #222222
+client.focused_inactive #222222 #222222 #a9a9a9 #222222
+client.urgent           #4A4A4A #4A4A4A #f7f7f7 #4A4A4A
 
 # split in horizontal orientation
 bindsym $mod+b split h
@@ -172,10 +187,6 @@ bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
-# i3-gaps
-#smart_gaps on
-for_window [class="urxvt"] border pixel 5
-
 focus_follows_mouse no
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -262,7 +273,73 @@ assign [class="Chromium"] $ws2
 # redis 
 bindsym  $win+r exec "urxvt -title redis -e /home/zl/Tools/redis-5.0.5/src/redis-server /home/zl/Tools/redis-5.0.5/redis.conf"
 assign [title="redis"] $ws4
-#
+
+# i3-gaps
+for_window [class="^.*"] border pixel 3
+
+gaps inner 0 
+gaps outer 5
+
+# smart_gaps on
+set $mode_gaps Gaps: (o) outer, (i) inner
+set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
+set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)
+bindsym $mod+Shift+g mode "$mode_gaps"
+bindsym $mod+g mode "$mode_gaps_simple"
+
+mode "$mode_gaps_simple" {
+        bindsym $right  gaps inner current plus 5
+        bindsym $left gaps inner current minus 5
+        bindsym Shift+i     gaps inner current set 0
+
+        bindsym Shift+$right  gaps inner all plus 5
+        bindsym Shift+$left gaps inner all minus 5
+        bindsym $win+Shift+i     gaps inner all set 0
+
+        bindsym $up  gaps outer current plus 5
+        bindsym $down gaps outer current minus 5
+        bindsym Shift+o     gaps outer current set 0
+
+        bindsym Shift+$up  gaps outer all plus 5
+        bindsym Shift+$down gaps outer all minus 5
+        bindsym $win+Shift+o     gaps outer all set 0
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
+mode "$mode_gaps" {
+        bindsym o      mode "$mode_gaps_outer"
+        bindsym i      mode "$mode_gaps_inner"
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
+mode "$mode_gaps_inner" {
+        bindsym plus  gaps inner current plus 5
+        bindsym minus gaps inner current minus 5
+        bindsym 0     gaps inner current set 0
+
+        bindsym Shift+plus  gaps inner all plus 5
+        bindsym Shift+minus gaps inner all minus 5
+        bindsym Shift+0     gaps inner all set 0
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+mode "$mode_gaps_outer" {
+        bindsym plus  gaps outer current plus 5
+        bindsym minus gaps outer current minus 5
+        bindsym 0     gaps outer current set 0
+
+        bindsym Shift+plus  gaps outer all plus 5
+        bindsym Shift+minus gaps outer all minus 5
+        bindsym Shift+0     gaps outer all set 0
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+
 #*********************************************电源管理*************************************
 set $mode_system  lock(L) logout(O) reboot(R) shutdown(S) exit(Esc)
 bindsym $win+c mode "$mode_system"

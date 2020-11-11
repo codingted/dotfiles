@@ -34,8 +34,8 @@ URxvt.keysym.M-Escape: perl:keyboard-select:activate
 !URxvt.keysym.M-s: perl:keyboard-select:search
 URxvt.keyboard-select.clipboard: true
 !!设置字体大小
-URxvt.keysym.C-j:     font-size:increase
-URxvt.keysym.C-k:     font-size:decrease
+URxvt.keysym.C-k:     font-size:increase
+URxvt.keysym.C-j:     font-size:decrease
 !URxvt.keysym.C-S-Up:   font-size:incglobal
 !URxvt.keysym.C-S-Down: font-size:decglobal
 !URxvt.keysym.C-equal:  font-size:reset
