@@ -1,26 +1,14 @@
-feh --bg-fill
-rename 【203】The+One+Where+Mr+Heckles+Dies.doc
-search LH
-find 
-rename LH20200311.md
-rename 费用_入库数据影响.graphml
-rename tagged
-vi colorschemes
-draw_bookmarks q
 touch colorschemes
 open_with l
 open_with j
 search demo
 search code
-search zip
 execute_console 
 rename yinzhang.png
 search pdf
-extract 
 search xlsx
 help
 /home/zl/Work/project/xiron/xiron-mgr/xiron-mgr-dao/src/main/java/com/xiron/mgr/royalty/dao
-cd -
 cd /home/zl/Work/project/xiron/xiron-mgr/xiron-mgr-dao/src/main/java/com/xiron/mgr/royalty/dao
 search down
 search a
@@ -43,8 +31,20 @@ search home
 search work
 map D shell trash %s
 open_with libreoffice7.0
-open_with 
-
 open_with libreoffice7.
 search mnt
+cd ~
+cd -
+cd 
+rename 
+rename a.tar.gz
+rename b.tar.gz
+delete 
+q
+open_with 
+open_with vim
+open_with okular
+
+extract 
 delete
+search zip

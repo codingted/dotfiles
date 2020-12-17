@@ -137,7 +137,7 @@ set tabstop=4
 set softtabstop=4
 
 " 设定自动缩进为4个字符，程序中自动缩进所使用的空白长度
-set shiftwidth=4
+set shiftwidth=2
 
 " 设置帮助文件为中文(需要安装vimcdoc文档)
 set helplang=cn
