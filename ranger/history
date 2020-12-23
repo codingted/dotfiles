@@ -1,8 +1,3 @@
-touch colorschemes
-open_with l
-open_with j
-search demo
-search code
 execute_console 
 rename yinzhang.png
 search pdf
@@ -40,11 +35,16 @@ rename
 rename a.tar.gz
 rename b.tar.gz
 delete 
-q
 open_with 
 open_with vim
 open_with okular
-
 extract 
-delete
 search zip
+delete
+
+search Seco
+q
+search Vent
+search Ven
+search Van
+search V

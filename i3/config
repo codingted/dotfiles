@@ -239,11 +239,11 @@ bindsym XF86MonBrightnessUp exec xbacklight -inc 20
 bindsym XF86MonBrightnessDown exec xbacklight -dec 20 
 
 # lock screen
-bindsym Mod4+l exec i3lock -t -i ~/.icon/morning_coffee-3440x1440.png
+bindsym Mod4+l exec i3lock -t -i ~/.icon/arch.png
 # lock screen and suspend
-bindsym Mod4+Ctrl+l exec "i3lock -t -i ~/.icon/ubuntu.png && systemctl suspend"
+bindsym Mod4+Ctrl+l exec "i3lock -t -i ~/.icon/arch.png && systemctl suspend"
 # lock screen and hibernate 
-bindsym Mod4+Ctrl+h exec "i3lock -t -i ~/.icon/ubuntu.png && systemctl hibernate"
+bindsym Mod4+Ctrl+h exec "i3lock -t -i ~/.icon/arch.png && systemctl hibernate"
 # wallpaper
 exec_always --no-startup-id feh --randomize -d --bg-fill ~/Pictures/luck/*
 
@@ -274,7 +274,7 @@ bindsym --release Shift+Print exec "scrot -s '%Y-%m-%d_%H:%M:%S_$wx$h.png'  -e '
 bindsym --release $win+i exec idea
 assign [class="jetbrains-idea"] $ws3
 # chrome
-bindsym --release $win+b exec chromium-browser
+bindsym --release $win+b exec chromium
 assign [class="Chromium"] $ws2
 # redis 
 bindsym  $win+r exec "urxvt -title redis -e /home/zl/Tools/redis-5.0.5/src/redis-server /home/zl/Tools/redis-5.0.5/redis.conf"
@@ -304,6 +304,10 @@ mode "$mode_gaps_simple" {
         bindsym Escape mode "default"
 }
 
+# Auto start 
+exec --no-startup-id fcitx
+exec --no-startup-id /usr/bin/start-pulseaudio-x11
+exec --no-startup-id setxkbmap -option ctrl:nocaps
 #*********************************************电源管理*************************************
 set $mode_system  lock(L) logout(O) reboot(R) shutdown(S) exit(Esc)
 bindsym $win+c mode "$mode_system"
@@ -321,8 +325,3 @@ bar {
         font pango:monospace 8, BlexMono Nerd Font 10
 #        position                top
 }
-
-# auto start 
-#exec --no-startup-id fcitx -r
-#exec --no-startup-id xmodmap ~/.Xmodmap
-#exec --no-startup-id "setxkbmap -option ctrl:nocaps"

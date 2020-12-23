@@ -1,0 +1,13 @@
+#
+# ~/.bashrc
+#
+echo "~/.bashrc"
+[[ -f ~/.bash_alias ]] && . ~/.bash_alias
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+PS1='[\u@\h \W]\$ '
+
+# history search
+bind '"\e[A": history-search-backward'
+bind '"\e[B": history-search-forward'

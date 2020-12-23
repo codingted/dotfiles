@@ -1,4 +1,6 @@
 # alias
+alias ll='ls -alF --color=auto'
+alias 'vi=vim'
 alias 'cdwork=cd ~/Work'
 alias 'cdxiron=cd ~/Work/project/xiron'
 alias 'cdmotie=cd ~/Work/project/motie'
