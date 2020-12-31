@@ -35,7 +35,6 @@ rename
 rename a.tar.gz
 rename b.tar.gz
 delete 
-open_with 
 open_with vim
 open_with okular
 extract 
@@ -48,3 +47,4 @@ search Vent
 search Ven
 search Van
 search V
+open_with 

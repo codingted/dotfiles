@@ -7,6 +7,7 @@ echo "~/.bashrc"
 [[ $- != *i* ]] && return
 
 PS1='[\u@\h \W]\$ '
+PS1="$PS1\$(git status 2>/dev/null | grep 'On branch' | sed 's/On branch / => /') $ "
 
 # history search
 bind '"\e[A": history-search-backward'

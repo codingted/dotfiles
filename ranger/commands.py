@@ -74,7 +74,7 @@ class extract(Command):
             ExtractProg='7z x'
             if i.path.endswith('.zip'):
                 # zip encoding issue
-                ExtractProg='unzip -O gbk'
+                ExtractProg='unzip'
             elif i.path.endswith('.tar.gz'):
                 ExtractProg='tar xvf'
             elif i.path.endswith('.tar.xz'):
