@@ -12,3 +12,8 @@ PS1="$PS1\$(git status 2>/dev/null | grep 'On branch' | sed 's/On branch / => /'
 # history search
 bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'
+
+# 
+export HISTCONTROL=ignoredups
+
+complete -c man which

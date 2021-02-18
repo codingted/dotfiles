@@ -87,7 +87,7 @@ bindsym $mod+z exec --no-startup-id exec i3zen
 
 # focus on window
 # focus_on_window_activation smart|urgent|focus|none
-focus_on_window_activation none
+focus_on_window_activation none 
 
 # color
 # class                 border  backgr. text    indicator child_border
@@ -252,18 +252,11 @@ bindsym Mod4+Shift+1 exec --no-startup-id "autorandr laptop"
 bindsym Mod4+Shift+2 exec --no-startup-id "autorandr same"
 bindsym Mod4+Shift+3 exec --no-startup-id "autorandr samsung"
 # shutter
-bindsym Mod4+Print exec shutter 
 # 全屏截图
 #bindsym --release Print exec shutter -f -o '~/Pictures/Screenshots/%Y-%m-%d_%H:%M:%S_$wx$h.png'
 #bindsym --release Print exec "scrot --focused '%Y-%m-%d_%H:%M:%S_$wx$h.png'  -e 'mv $f ~/Pictures/Screenshots/ && xclip -t image/png ~/Pictures/Screenshots/$f -sel clip'"
 # 截取当前窗口
 # bindsym --release Shift+Print exec shutter --window
-# 鼠标选择区域
-#bindsym --release Shift+Print exec shutter --select 
-# 截取并退出
-#bindsym --release Shift+Print exec "shutter -e -s -o '~/Pictures/Screenshots/%Y-%m-%d_%H:%M:%S_$wx$h.png && xclip -t image/png ~/Pictures/Screenshots/$f'"
-#bindsym --release Shift+Print exec "shutter -s -o '~/Pictures/Screenshots/%Y-%m-%d_%H:%M:%S_$wx$h.png'"
-#bindsym --release Shift+Print exec "scrot -s '%Y-%m-%d_%H:%M:%S_$wx$h.png'  -e 'mv $f ~/Pictures/Screenshots/ && xclip -t image/png ~/Pictures/Screenshots/$f -sel clip'"
 # 截取并编辑
 bindsym --release Ctrl+Shift+Print exec shutter -s -o '~/Pictures/Screenshots/%Y-%m-%d_%H:%M:%S_$wx$h.png'
 bindsym --release Shift+Print exec "scrot -s '%Y-%m-%d_%H:%M:%S_$wx$h.png'  -e 'mv $f ~/Pictures/Screenshots/ && xclip -t image/png ~/Pictures/Screenshots/$f -sel clip'"
@@ -278,7 +271,8 @@ assign [class="Chromium"] $ws2
 # redis 
 bindsym  $win+r exec "urxvt -title redis -e /home/zl/Tools/redis-5.0.5/src/redis-server /home/zl/Tools/redis-5.0.5/redis.conf"
 assign [title="redis"] $ws4
-
+# 
+popup_during_fullscreen smart
 # i3-gaps
 for_window [class="^.*"] border pixel 3
 # gaps inner 10 
@@ -305,11 +299,10 @@ mode "$mode_gaps_simple" {
 
 # Auto start 
 exec --no-startup-id fcitx
-exec --no-startup-id /usr/bin/start-pulseaudio-x11
 exec --no-startup-id setxkbmap -option ctrl:nocaps
 #*********************************************电源管理*************************************
 set $mode_system  lock(L) logout(O) reboot(R) shutdown(S) exit(Esc)
-bindsym $win+c mode "$mode_system"
+bindsym $win+Shift+Q mode "$mode_system"
 mode "$mode_system" {
     bindsym l exec --no-startup-id i3lock -c '#000000', mode "default"
     bindsym o exec --no-startup-id i3-msg exit, mode "default"
@@ -323,4 +316,5 @@ bar {
         status_command i3status -c ~/.config/i3/i3status.conf
         font pango:monospace 8, BlexMono Nerd Font 10
 #        position                top
+#        mode hide
 }

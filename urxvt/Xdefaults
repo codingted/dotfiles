@@ -42,7 +42,8 @@ URxvt.keysym.C-j:     font-size:decrease
 !URxvt.keysym.C-slash:  font-size:show
 !! matcher
 URxvt.keysym.M-u:       perl:url-select:select_next
-URxvt.url-launcher:      /usr/bin/xdg-open
+URxvt.url-launcher:     firefox
+URxvt.underlineURLs:    true
 URxvt.matcher.button:   1
 !!滚动条设置
 URxvt.scrollBar:False
