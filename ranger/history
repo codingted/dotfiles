@@ -1,4 +1,3 @@
-search down
 search a
 rename b
 rename a.xlsx
@@ -32,14 +31,12 @@ open_with vim
 open_with okular
 extract 
 search zip
-
 search Seco
 q
 search Vent
 search Ven
 search Van
 search V
-open_with 
 open_with q
 search ud
 search udev
@@ -47,4 +44,15 @@ touch 51-android.rules
 sudo touch 51-android.rules
 open_with
 rename 喜马拉雅抓取数据.xlsx
+rename 修改客户负责人-20210226.xlsx
+open_with 
+search 
+cd /opt
+cd /opt/xmind8/
+shell 
+w
+
 delete
+cd /home/zl/Work/project/xiron/settlement/
+search Own
+search java_

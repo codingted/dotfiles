@@ -25,3 +25,12 @@ alias mci="mvn clean install"
 alias pbcopy="xclip -selection clipboard"
 alias pbpaste="xclip -selection clipboard -o"
 
+alias setproxy="export ALL_PROXY=socks5://127.0.0.1:1087"
+alias unsetproxy="unset ALL_PROXY"
+
+alias sshproxy="ssh -D 1087 -o ServerAliveInterval=60 root@108.61.247.137"
+
+alias motielog="/home/zl/Script/motie/motie_watch_log.sh"
+alias xironlog="/home/zl/Script/motie/xiron_watch_log.sh"
+
+alias zkstart="sudo /home/zl/Tools/zookeeper-3.4.14/bin/zkServer.sh start-foreground"

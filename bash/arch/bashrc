@@ -6,14 +6,18 @@ echo "~/.bashrc"
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-PS1='[\u@\h \W]\$ '
-PS1="$PS1\$(git status 2>/dev/null | grep 'On branch' | sed 's/On branch / => /') $ "
+# Git branch in prompt.
+parse_git_branch() {
+    git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
+
+PS1='\e[0;32m[\u@\h \W]\e[m '
+PS1="$PS1\$\e[0;31m\$(parse_git_branch)\e[m "
 
 # history search
 bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'
 
-# 
-export HISTCONTROL=ignoredups
-
-complete -c man which
+# PATH
+PATH="$PATH:/home/zl/.local/bin"
+export PATH

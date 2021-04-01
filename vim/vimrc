@@ -16,6 +16,8 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'scrooloose/nerdtree'
+" Plugin 'jistr/vim-nerdtree-tabs'
+Plugin 'ryanoasis/vim-devicons'
 Plugin 'tpope/vim-fugitive'
 Plugin 'vim-airline/vim-airline'
 Plugin 'edkolev/tmuxline.vim'
@@ -24,7 +26,6 @@ Plugin 'tpope/vim-surround'
 " Plugin 'pangloss/vim-javascript'
 " Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'posva/vim-vue'
-Plugin 'jistr/vim-nerdtree-tabs'
 " python ide plugin
 Plugin 'tmhedberg/SimpylFold'
 Plugin 'vim-scripts/indentpython.vim'
@@ -150,7 +151,7 @@ au FileType python
     \ set tabstop=4
     \  softtabstop=4
     \  shiftwidth=4
-    \  textwidth=79
+"    \  textwidth=79
     \  expandtab
     \  autoindent
     \  fileformat=unix
