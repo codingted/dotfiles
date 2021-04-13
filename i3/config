@@ -246,7 +246,8 @@ bindsym XF86MonBrightnessUp exec xbacklight -inc 20
 bindsym XF86MonBrightnessDown exec xbacklight -dec 20 
 
 # lock screen
-bindsym $win+l exec i3lock -t -i ~/.icon/arch.png
+#bindsym $win+l exec i3lock -t -i ~/.icon/arch.png
+bindsym $win+l exec i3lock -t -i ~/.icon/morning_coffee-3440x1440.png
 # lock screen and suspend
 bindsym $win+Ctrl+l exec "i3lock -t -i ~/.icon/arch.png && systemctl suspend"
 # lock screen and hibernate 
